@@ -42,15 +42,7 @@ export const Header = ({ isDarkMode, onToggleTheme, totalVehicles }) => {
                                 <Moon className="w-5 h-5 text-blue-400" />
                             )}
                         </button>
-                        <a
-                            href="https://github.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="p-2 rounded-lg bg-background-secondary border border-border hover:border-border-hover transition-colors"
-                            aria-label="View on GitHub"
-                        >
-                            <Github className="w-5 h-5 text-text-secondary" />
-                        </a>
+
                     </div>
                 </div>
             </div>
